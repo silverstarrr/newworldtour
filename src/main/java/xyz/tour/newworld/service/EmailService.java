@@ -30,7 +30,7 @@ public class EmailService {
 		
 		SimpleMailMessage message = new SimpleMailMessage();
 		message.setTo(email);
-		message.setFrom("wndud2070@naver.com");
+		message.setFrom("tlwkr301@naver.com");
 		
 		for(int i = 0; i < 3; i++) {
 			int index = random.nextInt(25)+65;
@@ -77,7 +77,7 @@ public class EmailService {
 		
 		SimpleMailMessage message = new SimpleMailMessage();
 		message.setTo(email);
-		message.setFrom("wndud2070@naver.com");
+		message.setFrom("tlwkr301@naver.com");
 		
 		message.setSubject("임시 비밀번호 발급");
 		message.setText(
