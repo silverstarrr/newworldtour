@@ -25,7 +25,7 @@
             <input type="password" id="uiPwd" placeholder="비밀번호(대소문자,숫자,특수문자를 모두 포함해야 합니다)" required style="text-indent:30px" onkeyup="enterKey()"><br>
             <input type="password" id="uiPwdCheck" placeholder="비밀번호 확인" required style="text-indent:30px" onkeyup="enterKey()"><br>
             <input type="email" id="uiEmail" placeholder="이메일주소" required style="text-indent:30px"> <button onclick="checkEmail()" class="emailbtn">인증</button><br>           
-            <input type="text" id="emailCode" placeholder="인증번호" required style="text-indent:30px"> <button onclick="checkEmailCode()" class="emailCheckbtn">인증확인</button><br>
+            <input type="text" id="emailCode" placeholder="인증번호테스트" required style="text-indent:30px"> <button onclick="checkEmailCode()" class="emailCheckbtn">인증확인</button><br>
             <input type="number" id="uiZip" placeholder="우편번호" required style="text-indent:30px"> <button onclick="searchAddr()" class="addrBtn">주소검색</button><br>
             <input type="text" id="uiAddr1"  placeholder="주소1" required style="text-indent:30px" onkeyup="enterKey()"><br>
             <input type="text" id="uiAddr2"   placeholder="주소2" required style="text-indent:30px" onkeyup="enterKey()"><br>
